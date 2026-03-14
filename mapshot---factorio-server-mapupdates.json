@@ -9,15 +9,4 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": true
-    },
-    {
-        "UpdateStageName": "Run",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "Executable",
-        "UpdateSourceArgs": "serve --port {{$WebAccess}}",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
     }
-]
