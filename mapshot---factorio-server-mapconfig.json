@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "DisplayName": "Log errors to STDIO?",
+        "Category": "Server Settings",
+        "Description": "Send Errors to the console?",
+        "Keywords": "log,errors,to,stdio?",
+        "FieldName": "errors",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "errors",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "true",
+        "Placeholder": "true",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {
+            "--alsologtostderr": "True",
+            "": "False"
+        }
+    }
+]
