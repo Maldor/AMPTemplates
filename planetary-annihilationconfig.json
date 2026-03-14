@@ -1,0 +1,133 @@
+[
+    {
+        "DisplayName": "Allow LAN",
+        "Category": "Server Settings",
+        "Description": "Allow game to be found on LAN",
+        "Keywords": "allow,lan",
+        "FieldName": "LanEnabled",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "LanEnabled",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "true",
+        "Placeholder": "true",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {
+            "--allow-lan": "True",
+            "": "False"
+        }
+    },
+    {
+        "DisplayName": "Game Mode",
+        "Category": "Server Settings",
+        "Description": "Game mode to start server in",
+        "Keywords": "game,mode",
+        "FieldName": "--game-mode",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "--game-mode",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "PAExpansion1:config": "TITANS",
+            "config": "Classic"
+        }
+    },
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "server,name",
+        "FieldName": "--server-name",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "--server-name",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Multi Threading",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "multi,threading",
+        "FieldName": "--mt-enabled",
+        "InputType": "checkbox",
+        "IsFlagArgument": true,
+        "ParamFieldName": "--mt-enabled",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {
+            "--mt-enabled": "True",
+            "": "False"
+        }
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "max,players",
+        "FieldName": "--max-players",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "--max-players",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "12",
+        "Placeholder": "12",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Spectators",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "spectators",
+        "FieldName": "--max-spectators",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "--max-spectators",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "2",
+        "Placeholder": "2",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "AI Enabled",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "ai,enabled",
+        "FieldName": "--disable-ai",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "--disable-ai",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "Placeholder": "false",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {
+            "": "True",
+            "--disable-ai": "False"
+        }
+    }
+]

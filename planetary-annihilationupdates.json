@@ -1,0 +1,13 @@
+[
+    {
+        "UpdateStageName": "Download from Steam",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "386070",
+        "UpdateSourceArgs": "386070",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
