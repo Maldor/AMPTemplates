@@ -22,13 +22,13 @@
     },
     {
         "UpdateStageName": "Move",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CopyFilePath",
-        "UpdateSourceData": "./serverfiles",
-        "UpdateSourceArgs": "./mapshot-linux",
-        "UpdateSourceTarget": "serverfiles",
+        "UpdateSourceData": "{{$FullBaseDir}}/serverfiles",
+        "UpdateSourceArgs": "{{$FullBaseDir}}/mapshot-linux",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": true
     }
