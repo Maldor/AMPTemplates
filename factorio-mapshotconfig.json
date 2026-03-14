@@ -6,7 +6,7 @@
         "Keywords": "log,errors,to,stdio?",
         "FieldName": "errors",
         "InputType": "checkbox",
-        "IsFlagArgument": false,
+        "IsFlagArgument": true,
         "ParamFieldName": "errors",
         "IncludeInCommandLine": true,
         "DefaultValue": "true",
